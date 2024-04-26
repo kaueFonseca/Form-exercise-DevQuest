@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <div class="form-message">
+            <h2>FICOU COM DÚVIDA?</h2>
+            <h2>NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="form">
+            <form action="#" method="post">
+                <div class="input-group">
+                    <div class="input-box ">
+                        <input id="firstname" type="text" name="firstname" placeholder=" Nome completo *" required>
+                        <span class="">campo obrigatório</span>
+                    </div>
+
+                    <div class="input-box ">
+                        <input id="email" type="email" name="email" placeholder=" Email *" required>
+                        <span class="span ">campo obrigatório</span>
+                    </div>
+
+                    <div class="input-box ">
+                        <input id="number" type="tel" name="number" placeholder=" Telefone *" required >
+                        <span class="">campo obrigatório</span>
+                    </div>
+
+                    <div class="input-box ">
+                        <textarea class="message " placeholder=" Mensagem" name="message" id="message" cols="18" rows="13" required></textarea>
+                        <span class="">campo obrigatório</span>
+                    </div>
+                </div>
+
+                <div class="form-info">
+                    <h4>*campos obrigatórios</h4>
+                </div>
+                
+                <div class="continue-button">
+                    <button id="button" class="button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+  
+    <script type="text/javascript" src="/js/index.js"></script>
+</body>
+</html>
